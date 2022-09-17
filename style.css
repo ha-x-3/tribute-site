@@ -1,0 +1,107 @@
+html {
+    font-size: 12px;
+    display: block;
+  }
+  
+  body {
+    font-family: Helvetica, sans serif;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    border-radius: 8px;
+    border: 20px solid #add8e6;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 3.0rem;
+    text-shadow: 0.8px 0.8px #808080;
+    margin-bottom: 0;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  @media (max-width: 460px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  }
+  
+  #main {
+    padding: 15px;
+    background: #c2e5d3
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 16px;
+  }
+  
+  #img-div {
+    margin: 0;
+    padding: 10px;
+    background: #fffff0;
+    border-radius: 8px;
+  }
+  
+  #img-caption {
+      margin: 15px 0 5px 0;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  .movies {
+    font-weight: 400;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .bold {
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .quote {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.1em;
+  }
+  
+  .noitalic {
+    font-style: normal;
+  }
